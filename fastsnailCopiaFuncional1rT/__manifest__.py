@@ -10,8 +10,8 @@
         Long description of module's purpose
     """,
 
-    'author': "Javi",
-    'website': "http://www.mancheguet.com",
+    'author': "My Company",
+    'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
@@ -34,11 +34,11 @@
         'views/race.xml',
         'views/classification.xml',
         'views/employee.xml',
-        #'demo/caragols.xml'
+        'demo/caragols.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
-        #'demo/caragols.xml'
+        'demo/caragols.xml'
     ],
 }
